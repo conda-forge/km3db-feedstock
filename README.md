@@ -1,11 +1,11 @@
-About km3db
-===========
+About km3db-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/km3db-feedstock/blob/main/LICENSE.txt)
 
 Home: https://git.km3net.de/km3py/km3db
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/km3db-feedstock/blob/main/LICENSE.txt)
 
 Summary: KM3NeT database library
 
