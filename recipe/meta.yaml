@@ -24,15 +24,16 @@ build:
 
 requirements:
   host:
+    - python >=3.8
     - pip
-    - python >=2.7
     - setuptools_scm
   run:
+    - python >=3.8
     - docopt
-    - python >=2.7
     - pytz
     - requests
     - setuptools-scm
+    - numpy
 
 test:
   imports:
