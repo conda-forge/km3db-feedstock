@@ -1,5 +1,5 @@
 {% set name = "km3db" %}
-{% set version = "0.14.4" %}
+{% set version = "0.14.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/km3db-{{ version }}.tar.gz
-  sha256: 5621f6c1a481ae7daa23508b7708b5c3c3b4c7e07c23d0e2b8dedc970475b662
+  sha256: 96dfb23f8b5065a1910160df26d24c75a71a9f5581f44dd31fac32cd2044d591
 
 build:
   number: 0
@@ -24,15 +24,16 @@ build:
 
 requirements:
   host:
+    - python >=3.8
     - pip
-    - python >=2.7
     - setuptools_scm
   run:
+    - python >=3.8
     - docopt
-    - python >=2.7
     - pytz
     - requests
     - setuptools-scm
+    - numpy
 
 test:
   imports:
